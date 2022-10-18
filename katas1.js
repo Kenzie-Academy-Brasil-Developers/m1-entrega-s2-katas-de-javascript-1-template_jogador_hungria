@@ -1,5 +1,11 @@
-//                             //  EXE  : 01
+function iniciar_tudo(){
 
+//                             //  EXE  : 01
+alert("Caso nao tenha aberto o console Feche a página abra o console e siga!")
+
+alert("EXE  : 01")
+alert("exercício 1 executa automaticamente. Verifique o resultado deste e dos demais exercícios no console!")
+alert("Desenvolva uma função chamada cubicSquare, que não recebe parâmetro e deve retornar o cubo dos números de 1 a 10.")
 function cubicSquare() {
       
     let valor_ao_cubo =" "
@@ -9,9 +15,11 @@ function cubicSquare() {
     };
     return valor_ao_cubo;
 };
-console.log(cubicSquare());
+console.log(`${cubicSquare()}`);
 
 //                              //  EXE  : 02
+alert("EXE  : 02")
+alert("Desenvolva uma função chamada divisiblesFor, que receberá dois parâmetros:")
 
 function divisiblesFor(n1_2, n2_2,){
 
@@ -37,7 +45,9 @@ console.log(divisiblesFor(n1_2, n2_2))
 //                                  //  EXE  : 03
 
 
-
+alert("EXE  : 03")
+alert("Desenvolva uma função chamada stringElement, que receberá dois parâmetros:")
+alert("e deverá retornar a letra que está na posição passada por parâmetro e em maiúsculo")
 function stringElement(stringContagem, number){
 
     stringContagem = prompt("Digite uma frase");
@@ -67,7 +77,9 @@ console.log(stringElement(stringContagem, number));
 //                                   //  EXE  : 04
                         
 
-
+alert("EXE  : 04")
+alert("Desenvolva uma função chamada stringSlicer, que receberá dois parâmetros:")
+alert("Deverá retornar uma nova string com a seção da palavra do início até a posição final indicada por parâmetro.")
 function stringSlicer(string_4 , number4){
 
      string_4 = prompt("Digite uma frase");
@@ -88,7 +100,9 @@ console.log(stringSlicer(string_4 , number));
 
 //                                   //  EXE  : 05
 
-
+alert("EXE : 05")
+alert("​Desenvolva uma função chamada stringRest, que receberá dois parâmetros:")
+alert("Deverá retornar uma nova string contendo as letras que se encontram a partir da posição inicial indicada.")
 function stringRest(string_5, number_5){
     string_5 = prompt("Digite uma Palavra");
     number_5 = parseInt(prompt("Digite a posição inicial."));
@@ -108,7 +122,9 @@ console.log(stringRest(string_5, number_5));
 //                                      //  EXE  : 06
 
 
-
+alert("EXE : 06")
+alert("Desenvolva uma função chamada countVowels, que receberá um parâmetro:")
+alert("Deverá retornar a quantidade de vogais presentes na palavra recebida por parâmetro.")
 function countVowels(string_6){
     
     string_6 = prompt("Digite uma frase");
@@ -129,8 +145,9 @@ console.log(countVowels(string_6));
 
 //                                            //  EXE  : 07
 
-
-
+alert("EXE : 07")
+alert("Desenvolva uma função chamada countTextOccurrences, que receberá dois parâmetros:")
+alert("Sua função deverá percorrer o texto e retornar quantas vezes a letra passada por parâmetro aparece no texto.")
 function countTextOccurrences(string_7_1, string_7_2){
     string_7_1 = prompt("Digite uma frase");
     string_7_2 = prompt("Digite a letra que procura ");
@@ -154,7 +171,9 @@ console.log(countTextOccurrences(string_7_1, string_7_2));
 
 //                                           //  EXE  : 08
 
-
+alert("EXE : 08")
+alert("Desenvolva uma função chamada textBackwards, que receberá um parâmetro:")
+alert("Sua função deverá percorrer o texto e retornar ele ao contrário.")
 function textBackwards(inverter){
     inverter = prompt("escreva uma frase pra inverter");
     let invertido = "";
@@ -171,7 +190,10 @@ let inverter;
 console.log(textBackwards(inverter));
 
 
-//                                           //  EXE : 09
+//                                            //  EXE : 09
+alert("EX : 9")
+alert("Desenvolva uma função chamada removeBlank, que receberá um parâmetro:") 
+alert("Deverá retornar a frase sem os espaços em branco")                                       
 
 function removeBlank(retira_letra){
 
@@ -188,8 +210,12 @@ function removeBlank(retira_letra){
 let retira_letra;
 console.log(removeBlank(retira_letra));
 
+
 //                                           //  EXE :  10
 
+alert("EX : 10 executa automaticamente")
+alert("Desenvolva uma função chamada encryptText, que receberá um parâmetro:")
+alert("e deverá retornar a frase criptografada, trocando as seguintes letras _(mantenha o maiúsculo e minúsculo original da frase)_:")
 function encryptText(string_10){
 string_10 = "Uma frase ultra secreta que precisa ser criptografada";
           
@@ -224,3 +250,4 @@ let criptografada = "";
 };
 let string_10;
 console.log(encryptText(string_10));
+}

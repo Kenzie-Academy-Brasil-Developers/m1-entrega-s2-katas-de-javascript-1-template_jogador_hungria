@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(179, 179, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+section{
+    background-color: rgb(141, 121, 230);
+    border-radius: 20px;
+    padding: 40px;
+}
+h1{
+    background-color: rgb(76, 76, 233);
+    border-radius: 10px;
+    padding: 50px;
+    font-size: 40px;
+}
+h2{
+    background-color: rgb(245, 215, 170);
+    border-radius: 10px;
+    padding: 20px;
+}
+button{
+   padding: 20px;
+   border-radius: 10px;
+   background-color: rgb(173, 173, 226);
+   border: solid 3px rgb(252, 252, 252);
+   color: aliceblue;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+button:hover{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: solid 3px rgb(0, 0, 0);
+    color: black;
+}
