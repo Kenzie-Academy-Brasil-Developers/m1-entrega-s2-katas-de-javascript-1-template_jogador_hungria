@@ -1,6 +1,6 @@
 function iniciar_tudo(){
 
-//                             //  EXE  : 01
+// //                             //  EXE  : 01
 alert("Caso nao tenha aberto o console Feche a página abra o console e siga!")
 
 alert("EXE  : 01")
@@ -17,7 +17,7 @@ function cubicSquare() {
 };
 console.log(`${cubicSquare()}`);
 
-//                              //  EXE  : 02
+                              //  EXE  : 02
 alert("EXE  : 02")
 alert("Desenvolva uma função chamada divisiblesFor, que receberá dois parâmetros:")
 
@@ -42,7 +42,7 @@ console.log(divisiblesFor(n1_2, n2_2))
 
 
 
-//                                  //  EXE  : 03
+                                  //  EXE  : 03
 
 
 alert("EXE  : 03")
@@ -74,7 +74,7 @@ console.log(stringElement(stringContagem, number));
 
 
 
-//                                   //  EXE  : 04
+                                   //  EXE  : 04
                         
 
 alert("EXE  : 04")
@@ -98,7 +98,7 @@ console.log(stringSlicer(string_4 , number));
 
 
 
-//                                   //  EXE  : 05
+                                   //  EXE  : 05
 
 alert("EXE : 05")
 alert("​Desenvolva uma função chamada stringRest, que receberá dois parâmetros:")
@@ -119,7 +119,7 @@ console.log(stringRest(string_5, number_5));
 
 
 
-//                                      //  EXE  : 06
+                                      //  EXE  : 06
 
 
 alert("EXE : 06")
@@ -129,21 +129,25 @@ function countVowels(string_6){
     
     string_6 = prompt("Digite uma frase");
     let refatorando = "";
+    let reajustando = ""
 
     for(n = 0 ; n < string_6.length; n++){
 
         if(string_6[n] == "a" || string_6[n]  == "e" || string_6[n]  == "i" || string_6[n]  == "o" || string_6[n]  == "u"){
           refatorando += string_6[n] ;
+        }else if(string_6[n] == "A" || string_6[n]  == "E" || string_6[n]  == "I" || string_6[n]  == "O" || string_6[n]  == "U"){
+          refatorando += string_6[n] ;
         };
-    };
+    }; 
+   
     return refatorando;
 }
 let string_6;
-console.log(countVowels(string_6));
+console.log("Quantidade é : " + countVowels(string_6).length);
 
 
 
-//                                            //  EXE  : 07
+                                            //  EXE  : 07
 
 alert("EXE : 07")
 alert("Desenvolva uma função chamada countTextOccurrences, que receberá dois parâmetros:")
@@ -153,7 +157,7 @@ function countTextOccurrences(string_7_1, string_7_2){
     string_7_2 = prompt("Digite a letra que procura ");
     let procurando ="";
     let achou = "";
-    let saida ="";
+    let saida = "";
     for(n = 0 ; n < string_7_1.length; n++){
        if(string_7_1[n] == string_7_2 ){
         procurando = string_7_1[n];
@@ -169,7 +173,7 @@ console.log(countTextOccurrences(string_7_1, string_7_2));
 
 
 
-//                                           //  EXE  : 08
+                                           //  EXE  : 08
 
 alert("EXE : 08")
 alert("Desenvolva uma função chamada textBackwards, que receberá um parâmetro:")
@@ -190,7 +194,8 @@ let inverter;
 console.log(textBackwards(inverter));
 
 
-//                                            //  EXE : 09
+                                            //  EXE : 09
+
 alert("EX : 9")
 alert("Desenvolva uma função chamada removeBlank, que receberá um parâmetro:") 
 alert("Deverá retornar a frase sem os espaços em branco")                                       
@@ -211,7 +216,7 @@ let retira_letra;
 console.log(removeBlank(retira_letra));
 
 
-//                                           //  EXE :  10
+                                          //  EXE :  10
 
 alert("EX : 10 executa automaticamente")
 alert("Desenvolva uma função chamada encryptText, que receberá um parâmetro:")
