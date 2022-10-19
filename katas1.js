@@ -208,7 +208,7 @@ let criptografada = "";
             criptografada += "z";
         }else if (string_10[n] === "U"){
             criptografada += "Z";
-        }else if(criptografada != "a", "i", "o", "u", "A" , "E" , "I", "O", "U"){
+        }else{
             criptografada += string_10[n]; 
         };
     };
